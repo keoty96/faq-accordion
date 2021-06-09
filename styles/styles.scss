@@ -9,6 +9,7 @@ body {
     align-items: center;
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 12px;
+    margin: 0px;
 }
 
 button {
@@ -51,24 +52,52 @@ hr {
     display: flex;
 }
 
-.image{
-    width: 400px;
-    background: url(../images/bg-pattern-desktop.svg) center;
-}
-
 .faq-content {
     width: 400px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+/* images */
+.image-box{
+    width: 400px;
+    background-image: url("../images/bg-pattern-desktop.svg");
+    background-size: 650px;
+    background-repeat: no-repeat;
+    background-position-x: -360px;
+    background-position-y: -150px;
+}
+
+.box{
+    position: relative;
+    height: 100px;
+    top: -230px;
+    left: -50px;
+}
+
+.image-container{
+    height: 100%;
+    background-image: url("../images/illustration-woman-online-desktop.svg");
+    background-size: 350px;
+    background-repeat: no-repeat;
+    background-position-x: -60px;
+    background-position-y: 100px;
+}
+
+/* .pattern-desktop {
+    position: absolute;
+    height: 500px;
+    left: 10px;
 }
 
 .woman-desktop {
-    height: 250px;
-}
-
-.box-image {
-    height: 100px;
-}
+    position: relative;
+    height: 300px;
+    top: 100px;
+    left: -75px;
+} */
 
 /* content section */
 .question-container {
@@ -76,7 +105,7 @@ hr {
 }
 
 .answer {
-    color: hsl(240, 6%, 50%)
+    color: hsl(237, 12%, 33%)
 }
 
 .rotateimg180 {
@@ -85,4 +114,19 @@ hr {
   -ms-transform: rotate(180deg);
   -o-transform: rotate(180deg);
   transform: rotate(180deg);
+}
+
+.attribution {
+    bottom: 0%;
+    color: hsl(237, 12%, 33%);
+    padding-bottom: 20px;
+    position: absolute;
+}
+
+.attribution a {
+    color: hsl(237, 12%, 33%);
+}
+
+.attribution a:hover {
+    color: #ffffff;
 }

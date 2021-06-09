@@ -1,6 +1,4 @@
 function showAnswers(question, arrow, answer) {
-    console.log(question);
-
     switch (question) {
         case "q1":
             changeStyle(question, arrow, answer);
