@@ -38,6 +38,7 @@ button {
   width: 100%;
   cursor: pointer;
   outline: none;
+  text-align: left;
 }
 
 button:hover {
